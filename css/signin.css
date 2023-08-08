@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px !important;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+body a {
+    text-decoration: none;
+    color: #0066C0;
+}
+
+a:hover {
+    color: rgb(173, 64, 64);
+    text-decoration: underline;
+}
+
+.mainbody {
+    border-bottom: 1px solid rgb(224, 226, 227);
+}
+
+.amazonLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazonLogo img {
+    width: 105px;
+    margin-top: 15px;
+}
+
+.amazonLogo span {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.mainbodyBox {
+    width: 350px;
+    margin: auto;
+}
+
+.emailInput input,
+.continueButton,
+.createButton {
+    width: 100%;
+    height: 30px;
+}
+
+.emailInput input:focus,
+.continueButton:active,
+.createButton:active {
+    border: 1px solid blue;
+    outline: 3px solid lightblue;
+}
+
+#playButton {
+    font-size: 8px;
+    color: grey;
+}
+
+.horizontalLines {
+    color: #878181;
+    position: relative;
+    text-align: center;
+}
+
+.horizontalLines:before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #dedada;
+}
+
+.horizontalLines::after {
+    content: " ";
+    height: 1px;
+    width: 120px;
+    background: #dedada;
+    /* display: block; */
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.createButton {
+    outline: 3px solid whitesmoke;
+}
+
+.createButton:hover {
+    background-color: whitesmoke !important;
+}
+
+footer {
+    height: 191px;
+    background-color: whitesmoke;
+}
+
+.footerContent {
+    width: 250px;
+    margin: auto;
+}
