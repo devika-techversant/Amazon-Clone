@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.font11 {
+    font-size: 11px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.font13 {
+    font-size: 13px !important;
+}
+
+.font28 {
+    font-size: 28px;
+}
+
+body a {
+    text-decoration: none;
+    color: #0066C0;
+}
+
+a:hover {
+    color: rgb(173, 64, 64);
+    text-decoration: underline;
+}
+
+.mainbody {
+    border-bottom: 1px solid rgb(224, 226, 227);
+}
+
+.amazonLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazonLogo img {
+    width: 105px;
+    margin-top: 15px;
+}
+
+.amazonLogo span {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.mainbodyBox {
+    width: 350px;
+    margin: auto;
+}
+
+.nameInput input,
+.mobileNumber,
+.emailInput input,
+.passwordInput input,
+.continueButton
+ {
+    width: 100%;
+    height: 30px;
+}
+
+.nameInput input:focus,
+.mobileNumber input:focus,
+.emailInput input:focus,
+.passwordInput input:focus,
+.continueButton:active {
+    border: 1px solid blue;
+    outline: 3px solid lightblue;
+}
+
+.alreadyLine {
+    border-top: 1px solid rgb(238, 227, 227);
+}
+
+footer {
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+.footerContent {
+    width: 250px;
+    margin: auto;
+}
