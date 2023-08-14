@@ -17,8 +17,7 @@
 }
 
 .headerNav {
-   background-color: #0F1111;
-   height: 65px; 
+   background-color: #0F1111; 
 }
 .allSearch {
     padding: 1px;
@@ -30,7 +29,7 @@
 }
 
 .searchInput input{
-    width: 510px;
+    width: 500px;
    /* line-height: 20px; */
    padding: 7px 10px 10px 0px;
     margin: 0;
@@ -76,26 +75,6 @@
     background-color: #232f3e;
 }
 
-.helpAlertBody{
-    border-bottom: 3px solid rgb(184, 183, 183);
-
-}
-
-.helpAlertMain {
-    margin: 30px 200px 0px 200px;
-}
-
-.helpAlert {
-    border: 3px solid orange;
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px;
-    border-left: 13px solid orange;
-}
-
-#alertIcon {
-    width: 20px;
-}
-
-.someThingsBody {
-    border-bottom: 1px solid rgb(184, 183, 183);
+.hi {
+    margin-top: 100px;
 }
