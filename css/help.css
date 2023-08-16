@@ -16,6 +16,10 @@
     font-size: 14px;
 }
 
+.font18 {
+    font-size: 18px;
+}
+
 .headerNav {
    background-color: #0F1111;
    height: 65px; 
@@ -27,6 +31,10 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     width: 50px;
+}
+
+.allSearch:hover {
+    background-color: rgb(210, 209, 228)!important;
 }
 
 .searchInput input{
@@ -46,10 +54,6 @@
     border: 3px solid orange;
 }
 
-.allSearch:has(input:focus) {
-    border: 2px solid orange;
-  }
-
 .searchIcon img {
     width: 30px;
 }
@@ -59,6 +63,10 @@
     /* line-height: 35px; */
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.searchIcon:hover {
+    background-color: rgb(230, 170, 6)!important;
 }
 
 .roundedWhiteBorderNav {
@@ -98,4 +106,37 @@
 
 .someThingsBody {
     border-bottom: 1px solid rgb(184, 183, 183);
+}
+
+.someThings {
+    width: 32%;
+}
+
+.someThingsBody a:hover{
+    background-color: rgb(242, 236, 223) !important;
+}
+
+.someThingsBody .font18:hover {
+    color: rgb(231, 164, 40)!important;
+}
+
+.someThingsBody input {
+    width: 100%;
+    padding-left: 35px;
+    outline: 3px solid rgb(244, 244, 244)!important;
+    border: 3px solid rgb(43, 69, 85)!important;
+    border-radius: 5px;
+    background: transparent url("/assets/images/search.svg") no-repeat 13px;
+}
+
+.someThingsBody input:focus {
+    outline: 3px solid rgb(135, 206, 251)!important;
+    border: 3px solid rgb(43, 69, 85)!important;
+}
+
+.backToTop {
+    background-color: #232f3e;
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 13px;
 }
