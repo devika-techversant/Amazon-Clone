@@ -12,6 +12,10 @@
     font-size: 12px;
 }
 
+.font13 {
+    font-size: 13px;
+}
+
 .font14 {
     font-size: 14px;
 }
@@ -149,8 +153,12 @@
 }
 
 .backToTop {
-    background-color: #232f3e;
+    background-color: rgb(47, 62, 68);
     padding: 15px 0;
     line-height: 19px;
     font-size: 13px;
+}
+
+.darkBackground {
+    background-color: #232F3E;
 }
