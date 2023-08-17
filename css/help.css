@@ -16,6 +16,10 @@
     font-size: 14px;
 }
 
+.font16 {
+    font-size: 16px;
+}
+
 .font18 {
     font-size: 18px;
 }
@@ -98,6 +102,16 @@
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     border-left: 13px solid orange;
+}
+
+.helpAlert a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.helpAlert a:hover {
+    text-decoration: underline;
+    color: rgb(183, 122, 9);
 }
 
 #alertIcon {
